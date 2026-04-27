@@ -464,5 +464,58 @@ function copyPrompt(btn, service, prompt) {
   });
 }
 </script>
+<script>
+(function() {
+  // Add data-category to each unit card based on its badge text
+  document.querySelectorAll('.unit-card').forEach(function(card) {
+    var badge = card.querySelector('.unit-badge');
+    if (badge) {
+      card.setAttribute('data-category', badge.textContent.trim().toLowerCase());
+    }
+  });
+
+  // Wire up filter buttons
+  document.querySelectorAll('.filter-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      // Update active state
+      document.querySelectorAll('.filter-btn').forEach(function(b) {
+        b.classList.remove('active');
+      });
+      btn.classList.add('active');
+
+      var filter = btn.textContent.trim().toLowerCase();
+
+      document.querySelectorAll('.unit-card').forEach(function(card) {
+        if (filter === 'all water slides' || filter === 'all bounce houses' || filter === 'all combos' || filter === 'all obstacle courses') {
+          card.style.display = '';
+        } else if (card.getAttribute('data-category') === filter) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      // Update grid -- hide empty grid gaps
+      var visible = document.querySelectorAll('.unit-card:not([style*="none"])').length;
+      var countEl = document.getElementById('unit-count');
+      if (countEl) countEl.textContent = visible;
+    });
+  });
+})();
+</script>
+<!-- MOBILE STICKY BOTTOM BAR -->
+<div class="mob-sticky-bar">
+  <a href="tel:7372347169" class="mob-sticky-call">&#128222; Call Us</a>
+  <a href="https://www.jump-aroundpartyrentals.com/category/" target="_blank" rel="noopener" class="mob-sticky-book">Book Now</a>
+</div>
+<style>
+.mob-sticky-bar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:9999;display:flex;height:56px;box-shadow:0 -2px 16px rgba(0,0,0,.18)}
+.mob-sticky-call{flex:1;display:flex;align-items:center;justify-content:center;background:var(--gold);color:var(--green);font-family:'Fredoka One',cursive;font-size:1.05rem;text-decoration:none;gap:6px}
+.mob-sticky-book{flex:1;display:flex;align-items:center;justify-content:center;background:var(--cta);color:#fff;font-family:'Fredoka One',cursive;font-size:1.05rem;text-decoration:none;gap:6px}
+.mob-sticky-call:hover{background:var(--gold-hover)}
+.mob-sticky-book:hover{background:var(--cta-hover)}
+@media(min-width:769px){.mob-sticky-bar{display:none!important}}
+@media(max-width:768px){.mob-sticky-bar{display:flex}body{padding-bottom:56px}}
+</style>
 </body>
 </html>

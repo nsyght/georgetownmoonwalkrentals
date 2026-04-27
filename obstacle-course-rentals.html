@@ -294,6 +294,21 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
     </div>
   </div>
 </section>
+<section style="padding:0 24px 40px"><div class="container"><div class="ai-inline-widget">
+  <span class="ai-inline-label">&#129302; Still have questions?</span>
+  <button class="ai-btn-inline chatgpt-btn-inline" onclick="copyPrompt(this, 'chatgpt', &quot;What obstacle course rentals are available in Georgetown TX?&quot;)">Ask ChatGPT</button>
+  <button class="ai-btn-inline claude-btn-inline" onclick="copyPrompt(this, 'claude', &quot;What obstacle course rentals are available in Georgetown TX?&quot;)">Ask Claude</button>
+</div>
+<style>
+.ai-inline-widget{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:28px;padding:16px 20px;background:rgba(27,58,45,0.04);border-radius:var(--radius-card);border:1px solid rgba(27,58,45,0.08)}
+.ai-inline-label{font-size:.86rem;font-weight:700;color:var(--text-mid);flex-shrink:0}
+.ai-btn-inline{display:inline-flex;align-items:center;gap:6px;font-family:'Fredoka One',cursive;font-size:.84rem;padding:7px 15px;border-radius:var(--radius-btn);border:1.5px solid;cursor:pointer;transition:all .2s;background:var(--white)}
+.chatgpt-btn-inline{color:#10a37f;border-color:#10a37f}
+.chatgpt-btn-inline:hover{background:#10a37f;color:var(--white)}
+.claude-btn-inline{color:#c45e38;border-color:#c45e38}
+.claude-btn-inline:hover{background:#c45e38;color:var(--white)}
+.ai-btn-inline.copied{background:var(--green);color:var(--white);border-color:var(--green)}
+</style></div></section>
 <footer>
   <div class="footer-grid">
     <div class="footer-col">

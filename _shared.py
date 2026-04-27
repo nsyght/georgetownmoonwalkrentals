@@ -6,9 +6,9 @@ SITE = {
     "domain": "georgetownmoonwalkrentals.com",
     "url": "https://www.georgetownmoonwalkrentals.com",
     "name": "Georgetown Moonwalk Rentals",
-    "phone_display": "(737) 291-2100",
-    "phone_raw": "7372912100",
-    "phone_href": "tel:7372912100",
+    "phone_display": "(737) 234-7169",
+    "phone_raw": "7372347169",
+    "phone_href": "tel:7372347169",
     "email": "info@georgetownmoonwalkrentals.com",
     "operator": "Jump Around Party Rentals",
     "insurance": "All rentals are provided by Jump Around Party Rentals, who is fully licensed and insured in Williamson County and Travis County, Texas.",
@@ -227,7 +227,7 @@ NAV_LINKS_HTML = """    <li><a href="/index.html">Home</a></li>
     <li><a href="/obstacle-course-rentals.html">Obstacle Courses</a></li>
     <li><a href="/service-area.html">Service Area</a></li>
     <li><a href="/faq.html">FAQ</a></li>
-    <li><a href="tel:7372912100" class="nav-phone">(737) 291-2100</a></li>
+    <li><a href="tel:7372347169" class="nav-phone">(737) 234-7169</a></li>
     <li><a href="https://www.jump-aroundpartyrentals.com/category/" target="_blank" rel="noopener" class="nav-cta">Book Now</a></li>"""
 
 MOB_LINKS_HTML = """    <li><a href="/index.html">Home</a></li>
@@ -253,7 +253,7 @@ def nav_html(active=""):
 {MOB_LINKS_HTML}
   </ul>
   <div class="mob-btns">
-    <a href="tel:7372912100" class="mob-call">&#128222; (737) 291-2100</a>
+    <a href="tel:7372347169" class="mob-call">&#128222; (737) 234-7169</a>
     <a href="https://www.jump-aroundpartyrentals.com/category/" target="_blank" rel="noopener" class="mob-cta">Book Now</a>
   </div>
 </div>"""
@@ -345,7 +345,7 @@ FOOTER_HTML = f"""<footer>
     <div class="footer-col">
       <h4>Georgetown Moonwalk Rentals</h4>
       <p>Bounce house, moonwalk, water slide, combo, and obstacle course rentals serving Georgetown TX and Williamson County.</p>
-      <p style="margin-top:10px;color:var(--gold);">(737) 291-2100</p>
+      <p style="margin-top:10px;color:var(--gold);">(737) 234-7169</p>
       <p style="margin-top:4px;font-size:.78rem;color:rgba(255,255,255,.35);">⚠ Placeholder -- replace with new Twilio number</p>
     </div>
     <div class="footer-col">

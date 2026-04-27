@@ -460,18 +460,18 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
     <h2 class="section-title">Serving <span>Every Georgetown</span> Neighborhood</h2>
     <p class="section-sub">Georgetown TX is one of the most prominent cities in Williamson County -- home to Wolf Ranch, Berry Creek, Teravista, Rancho Sienna, and dozens of established and fast-growing communities. We deliver to every one of them.</p>
     <div class="nbr-grid">
-      <a href="/neighborhood-wolf-ranch.html" class="nbr-card"><strong>Wolf Ranch</strong><span>Hill Country master-planned community on the San Gabriel River</span></a>
-      <a href="/neighborhood-berry-creek.html" class="nbr-card"><strong>Berry Creek</strong><span>Established gated golf community in northeast Georgetown</span></a>
-      <a href="/neighborhood-teravista.html" class="nbr-card"><strong>Teravista</strong><span>Golf course community between Georgetown and Round Rock</span></a>
-      <a href="/neighborhood-rancho-sienna.html" class="nbr-card"><strong>Rancho Sienna</strong><span>540-acre master-planned community on Ronald Reagan Blvd</span></a>
-      <a href="/neighborhood-cimarron-hills.html" class="nbr-card"><strong>Cimarron Hills</strong><span>Private Jack Nicklaus golf and country club community</span></a>
-      <a href="/neighborhood-morningstar.html" class="nbr-card"><strong>Morningstar</strong><span>Growing master-planned community in northwest Georgetown</span></a>
-      <a href="/neighborhood-sun-city.html" class="nbr-card"><strong>Sun City</strong><span>Del Webb&#8217;s premier 55+ community -- 7,500+ homes</span></a>
-      <a href="/neighborhood-serenada.html" class="nbr-card"><strong>Serenada</strong><span>Established wooded neighborhood with mature oak trees</span></a>
-      <a href="/neighborhood-georgetown-square.html" class="nbr-card"><strong>Georgetown Square</strong><span>Historic downtown -- Red Poppy Festival, Southwestern University</span></a>
-      <a href="/neighborhood-water-oak.html" class="nbr-card"><strong>Water Oak</strong><span>New community near Lake Georgetown and the San Gabriel River</span></a>
-      <a href="/neighborhood-fountainwood.html" class="nbr-card"><strong>Fountainwood</strong><span>Wooded estate community with large private yards</span></a>
-      <a href="/neighborhood-lakeside.html" class="nbr-card"><strong>Lakeside at Lake Georgetown</strong><span>One of the few neighborhoods directly on Lake Georgetown</span></a>
+      <a href="/wolf-ranch.html" class="nbr-card"><strong>Wolf Ranch</strong><span>Hill Country master-planned community on the San Gabriel River</span></a>
+      <a href="/berry-creek.html" class="nbr-card"><strong>Berry Creek</strong><span>Established gated golf community in northeast Georgetown</span></a>
+      <a href="/teravista.html" class="nbr-card"><strong>Teravista</strong><span>Golf course community between Georgetown and Round Rock</span></a>
+      <a href="/rancho-sienna.html" class="nbr-card"><strong>Rancho Sienna</strong><span>540-acre master-planned community on Ronald Reagan Blvd</span></a>
+      <a href="/cimarron-hills.html" class="nbr-card"><strong>Cimarron Hills</strong><span>Private Jack Nicklaus golf and country club community</span></a>
+      <a href="/morningstar.html" class="nbr-card"><strong>Morningstar</strong><span>Growing master-planned community in northwest Georgetown</span></a>
+      <a href="/sun-city.html" class="nbr-card"><strong>Sun City</strong><span>Del Webb&#8217;s premier 55+ community -- 7,500+ homes</span></a>
+      <a href="/serenada.html" class="nbr-card"><strong>Serenada</strong><span>Established wooded neighborhood with mature oak trees</span></a>
+      <a href="/georgetown-square.html" class="nbr-card"><strong>Georgetown Square</strong><span>Historic downtown -- Red Poppy Festival, Southwestern University</span></a>
+      <a href="/water-oak.html" class="nbr-card"><strong>Water Oak</strong><span>New community near Lake Georgetown and the San Gabriel River</span></a>
+      <a href="/fountainwood.html" class="nbr-card"><strong>Fountainwood</strong><span>Wooded estate community with large private yards</span></a>
+      <a href="/lakeside.html" class="nbr-card"><strong>Lakeside at Lake Georgetown</strong><span>One of the few neighborhoods directly on Lake Georgetown</span></a>
     </div>
     <div class="facts-grid" style="margin-top:28px">
       <div class="fact-card"><span class="fact-num">83K+</span><span class="fact-label">Georgetown TX residents -- one of Texas&#8217;s fastest-growing cities</span></div>
@@ -513,25 +513,30 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
   </div>
 </section>
 
-<!-- FAQ -->
-<section style="background:var(--light-bg)">
+<!-- FAQ CARD GRID -->
+<style>
+.faq-section-wrap { padding: 60px 24px; background: #f4f7f4; }
+.faq-section-label { font-family:'Fredoka One',cursive; font-size:.76rem; letter-spacing:2px; text-transform:uppercase; color:var(--cta); display:block; text-align:center; margin-bottom:8px; }
+.faq-section-heading { font-family:'Nunito',sans-serif; font-weight:800; font-size:1.4rem; color:var(--green); text-align:center; margin-bottom:36px; }
+.faq-card-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.faq-card { background:#ffffff; border-left:4px solid var(--cta); border-radius:0 8px 8px 0; padding:22px 24px; }
+.faq-card h3 { font-family:'Nunito',sans-serif; font-weight:800; font-size:.86rem; color:var(--green); text-transform:uppercase; letter-spacing:.4px; line-height:1.35; margin-bottom:10px; }
+.faq-card p { font-size:.88rem; color:var(--text-mid); line-height:1.7; }
+@media(max-width:768px){ .faq-card-grid { grid-template-columns:1fr; } }
+</style>
+<section class="faq-section-wrap">
   <div class="container">
-    <span class="section-label">Common Questions</span>
-    <h2 class="section-title">Georgetown TX Moonwalk <span>Rental FAQ</span></h2>
-    <p class="section-sub">Everything Georgetown TX families ask about renting a moonwalk, bounce house, water slide, or obstacle course.</p>
-    <div class="price-answer-block">
-      <h3>How much does a bounce house rental cost in Georgetown TX?</h3>
-      <p>Bounce house rentals in Georgetown TX start at <strong>$155</strong> for a standard themed moonwalk. Combo bounce houses with slides start at <strong>$195</strong>. Water slide rentals start at <strong>$245</strong>. Obstacle course rentals start at <strong>$365</strong>. All pricing includes delivery, setup, and pickup directly to your Georgetown TX address -- no hidden fees. Call (737) 291-2100 for a same-day quote.</p>
-    </div>
-    <div class="faq-list">
-      <div class="faq-item"><button class="faq-question">Do you deliver to Wolf Ranch and Berry Creek in Georgetown TX? <span class="faq-chevron">▼</span></button><div class="faq-answer"><div class="faq-answer-inner">Yes. We deliver bounce houses, water slides, and inflatables to every Georgetown TX neighborhood including Wolf Ranch, Berry Creek, Teravista, Rancho Sienna, Cimarron Hills, Morningstar, Serenada, Georgetown Square, Water Oak, Fountainwood, and Lakeside at Lake Georgetown. Call (737) 291-2100 to confirm delivery to your address.</div></div></div>
-      <div class="faq-item"><button class="faq-question">What is the most popular bounce house in Georgetown TX? <span class="faq-chevron">▼</span></button><div class="faq-answer"><div class="faq-answer-inner">Bluey, Frozen, Fortnite, Baby Shark, and Cocomelon are consistently the most-requested bounce house themes for Georgetown TX birthday parties. For the Teravista and Wolf Ranch communities, the Combo Bounce House with slide is the single most popular rental. We carry 25+ themed moonwalks and 24 combo units.</div></div></div>
-      <div class="faq-item"><button class="faq-question">How much space do I need for a bounce house in my Georgetown TX yard? <span class="faq-chevron">▼</span></button><div class="faq-answer"><div class="faq-answer-inner">A standard bounce house requires roughly 18 x 18 feet of flat space with 15 feet of overhead clearance. A combo bounce house with slide needs approximately 22 x 20 feet. Most Georgetown TX homes in Wolf Ranch, Teravista, and Rancho Sienna have yards large enough for a standard or combo unit. We confirm exact dimensions during booking.</div></div></div>
-      <div class="faq-item"><button class="faq-question">Do you deliver inflatables to Georgetown ISD school events? <span class="faq-chevron">▼</span></button><div class="faq-answer"><div class="faq-answer-inner">Yes. We deliver to Georgetown ISD field days, school carnivals, and end-of-year celebrations at all campuses including Georgetown High School, East View High School, Wolf Ranch Elementary, Carver Elementary, and all Georgetown ISD middle and elementary schools. Insurance documentation is available for Georgetown ISD district review.</div></div></div>
-      <div class="faq-item"><button class="faq-question">What is a moonwalk and how is it different from a bounce house? <span class="faq-chevron">▼</span></button><div class="faq-answer"><div class="faq-answer-inner">Moonwalk and bounce house are two names for the same rental. In Texas, inflatable jump houses are traditionally called moonwalks. Other common names include jumper, jump house, bouncy castle, and spacewalk. Georgetown Moonwalk Rentals delivers all of these -- same sealed inflatable structure, same great fun, same prices starting at $155.</div></div></div>
-      <div class="faq-item"><button class="faq-question">Can I get a same-week rental in Georgetown TX? <span class="faq-chevron">▼</span></button><div class="faq-answer"><div class="faq-answer-inner">Sometimes, yes. We recommend booking 2 to 3 weeks in advance for weekend dates between April and September -- Georgetown TX events including the Red Poppy Festival, Georgetown ISD field days, and Wolf Ranch and Teravista neighborhood parties fill the calendar fast. Call (737) 291-2100 and we will check current availability for your date.</div></div></div>
-      <div class="faq-item"><button class="faq-question">What water slides are available for Georgetown TX summer parties? <span class="faq-chevron">▼</span></button><div class="faq-answer"><div class="faq-answer-inner">We carry 34 inflatable water slides for Georgetown TX events, ranging from 12ft junior slides at $245 to the 32ft Pirate Dual Lane at $1,095. Popular choices for Georgetown TX backyard parties include the 16ft Rainbow Water Slide ($275), the 22ft Ruby Crush ($375), and the 18ft Double Lane Beach Party slide ($425). All water slide rentals include delivery, setup, and pickup.</div></div></div>
-      <div class="faq-item"><button class="faq-question">Is Georgetown Moonwalk Rentals licensed and insured? <span class="faq-chevron">▼</span></button><div class="faq-answer"><div class="faq-answer-inner">Yes. All rentals are provided by Jump Around Party Rentals, who is fully licensed and insured in Williamson County and Travis County, Texas. Proof of insurance is available upon request for venues, HOAs, and school districts requiring documentation.</div></div></div>
+    <span class="faq-section-label">GEORGETOWN TX FAQS</span>
+    <h2 class="faq-section-heading">Clear Answers for Georgetown Families</h2>
+    <div class="faq-card-grid">
+      <div class="faq-card"><h3>Do you deliver bounce houses to Wolf Ranch and Berry Creek in Georgetown TX?</h3><p>Yes. Georgetown Moonwalk Rentals delivers to every Georgetown TX neighborhood including Wolf Ranch, Berry Creek, Teravista, Rancho Sienna, Cimarron Hills, Morningstar, Sun City, Serenada, Georgetown Square, Water Oak, Fountainwood, and Lakeside at Lake Georgetown. Call (737) 291-2100 to confirm delivery to your address.</p></div>
+      <div class="faq-card"><h3>What is a moonwalk and how is it different from a bounce house?</h3><p>Moonwalk and bounce house are two names for the same rental. In Texas, inflatable jump houses are traditionally called moonwalks. Other common names include jumper, jump house, bouncy castle, and spacewalk. Georgetown Moonwalk Rentals delivers all of these -- same structure, same prices starting at $155.</p></div>
+      <div class="faq-card"><h3>How much does a moonwalk rental cost in Georgetown TX?</h3><p>Bounce house rentals in Georgetown TX start at $155 for a standard themed moonwalk. Combo bounce houses start at $195. Water slide rentals start at $245. Obstacle course rentals start at $365. All pricing includes delivery, setup, and pickup to your Georgetown TX address -- no hidden fees. Call (737) 291-2100 for a same-day quote.</p></div>
+      <div class="faq-card"><h3>Can I get a same-week rental in Georgetown TX?</h3><p>Sometimes, yes. We recommend booking 2 to 3 weeks in advance for weekend dates between April and September -- Georgetown TX events including the Red Poppy Festival, Georgetown ISD field days, and Wolf Ranch and Teravista neighborhood parties fill the calendar fast. Call (737) 291-2100 to check current availability for your date.</p></div>
+      <div class="faq-card"><h3>What is the most popular bounce house in Georgetown TX?</h3><p>Bluey, Frozen, Fortnite, Baby Shark, and Cocomelon are consistently the most-requested bounce house themes for Georgetown TX birthday parties. For the Teravista and Wolf Ranch communities, the Combo Bounce House with slide is the single most popular rental. We carry 25+ themed moonwalks and 24 combo units.</p></div>
+      <div class="faq-card"><h3>What water slides are available for Georgetown TX summer parties?</h3><p>We carry 34 inflatable water slides for Georgetown TX events, from 12ft junior slides at $245 to the 32ft Pirate Dual Lane at $1,095. Popular choices include the 16ft Rainbow Water Slide ($275), 22ft Ruby Crush ($375), and 18ft Double Lane Beach Party slide ($425). All rentals include delivery, setup, and pickup.</p></div>
+      <div class="faq-card"><h3>Can you deliver inflatables to Georgetown ISD school events?</h3><p>Yes. We deliver to Georgetown ISD field days and school carnivals at all campuses including Georgetown High School, East View High School, Wolf Ranch Elementary, Carver Elementary, and all Georgetown ISD middle schools. Insurance documentation is available for district review.</p></div>
+      <div class="faq-card"><h3>Is Georgetown Moonwalk Rentals licensed and insured?</h3><p>Yes. All rentals are provided by Jump Around Party Rentals, who is fully licensed and insured in Williamson County and Travis County, Texas. Proof of insurance is available upon request for venues, HOAs, and school districts requiring documentation.</p></div>
     </div>
   </div>
 </section>
@@ -602,11 +607,11 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
     </div>
     <div class="footer-col">
       <h4>Neighborhoods</h4>
-      <a href="/neighborhood-wolf-ranch.html">Wolf Ranch</a>
-      <a href="/neighborhood-berry-creek.html">Berry Creek</a>
-      <a href="/neighborhood-teravista.html">Teravista</a>
-      <a href="/neighborhood-rancho-sienna.html">Rancho Sienna</a>
-      <a href="/neighborhood-cimarron-hills.html">Cimarron Hills</a>
+      <a href="/wolf-ranch.html">Wolf Ranch</a>
+      <a href="/berry-creek.html">Berry Creek</a>
+      <a href="/teravista.html">Teravista</a>
+      <a href="/rancho-sienna.html">Rancho Sienna</a>
+      <a href="/cimarron-hills.html">Cimarron Hills</a>
       <a href="/service-area.html">All Neighborhoods</a>
     </div>
     <div class="footer-col">

@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.georgetownmoonwalkrentals.com/sitemap.xml
+
+# LLM crawler access
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# LLMs.txt available at /llms.txt

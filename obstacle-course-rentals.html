@@ -387,22 +387,44 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
 </style>
 <script>
 function copyPrompt(btn, service, prompt) {
+  var encoded = encodeURIComponent(prompt);
+  var url;
+  if (service === 'chatgpt') {
+    url = 'https://chat.openai.com/?q=' + encoded;
+  } else if (service === 'claude') {
+    url = 'https://claude.ai/new?q=' + encoded;
+  } else {
+    // Gemini -- no reliable pre-fill param, open blank and show paste tip
+    url = 'https://gemini.google.com/';
+  }
+
+  // Copy to clipboard
   navigator.clipboard.writeText(prompt).then(function() {
-    var orig = btn.innerHTML;
+    var origHTML = btn.innerHTML;
     btn.classList.add('copied');
-    btn.innerHTML = '&#10003; Prompt Copied!';
-    var url = service === 'chatgpt'
-      ? 'https://chat.openai.com/'
-      : service === 'gemini'
-      ? 'https://gemini.google.com/'
-      : 'https://claude.ai/new';
-    setTimeout(function() {
-      window.open(url, '_blank');
+
+    if (service === 'gemini') {
+      btn.innerHTML = '&#10003; Copied -- paste &amp; Enter';
       setTimeout(function() {
-        btn.classList.remove('copied');
-        btn.innerHTML = orig;
-      }, 800);
-    }, 600);
+        window.open(url, '_blank');
+        setTimeout(function() {
+          btn.classList.remove('copied');
+          btn.innerHTML = origHTML;
+        }, 2500);
+      }, 400);
+    } else {
+      btn.innerHTML = '&#10003; Pre-filled -- hit Enter';
+      setTimeout(function() {
+        window.open(url, '_blank');
+        setTimeout(function() {
+          btn.classList.remove('copied');
+          btn.innerHTML = origHTML;
+        }, 2500);
+      }, 400);
+    }
+  }).catch(function() {
+    // Fallback if clipboard fails
+    window.open(url, '_blank');
   });
 }
 </script>

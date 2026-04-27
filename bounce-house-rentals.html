@@ -467,6 +467,7 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
   <span class="ai-inline-label">&#129302; Still have questions?</span>
   <button class="ai-btn-inline chatgpt-btn-inline" onclick="copyPrompt(this, 'chatgpt', &quot;What bounce houses and moonwalk rentals are available in Georgetown TX?&quot;)">Ask ChatGPT</button>
   <button class="ai-btn-inline claude-btn-inline" onclick="copyPrompt(this, 'claude', &quot;What bounce houses and moonwalk rentals are available in Georgetown TX?&quot;)">Ask Claude</button>
+  <button class="ai-btn-inline gemini-btn-inline" onclick="copyPrompt(this, 'gemini', &quot;What bounce houses and moonwalk rentals are available in Georgetown TX?&quot;)">Ask Gemini</button>
 </div>
 <style>
 .ai-inline-widget{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:28px;padding:16px 20px;background:rgba(27,58,45,0.04);border-radius:var(--radius-card);border:1px solid rgba(27,58,45,0.08)}
@@ -533,6 +534,10 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-1.308-.097L1 12.485l.066-.22.584-.22 1.066-.048 1.792-.048h.724l1.066-.048.845-.372-.048-.128-1.259-.912-1.527-1.094-1.194-.845-.497-.405-.15-.437.357-.357h.55l.458.228 1.066.748 1.259.912.748.54.066-.163-.388-1.136-.538-1.635-.35-1.094-.097-.71.066-.314.38-.18.408.066.298.46.457 1.384.583 1.807.264.837.132-.048.066-.18-.066-.163-.208-.91-.378-1.384-.186-.81-.03-.663.244-.377.358-.094.441.132.39.424.51 1.017.748 1.648.427 1.017.208.066-.163-.046-.57-.066-1.27-.03-.83.066-.61.357-.38.39.066.34.34.194.61.066 1.27.03.91v.757l.13 2.084.046 1.017v.244l.163-.08 1.017-.748 1.46-1.017.813-.54.554-.3.357.066.26.26.046.35-.24.405-.763.584-1.017.748-.916.698-.178.163.19.05h.61l1.27-.066.91-.03.81.066.39.34.046.35-.26.34-.44.19-.91.066-1.27-.03-.61-.066h-.2l-.05.178.473.405.61.54 1.46 1.384.813.845.3.584-.178.38-.474.05-.554-.3-.813-.748-1.017-.993-.843-.844-.1-.05-.1.1v.19l.046.91.066 1.27.03.91-.048.61-.34.39-.35.046-.34-.26-.19-.44-.066-.91.03-1.27.046-.757v-.178l-.15.03-.748 1.46-.583 1.017-.46.71-.38.26-.44-.046-.26-.34v-.474l.3-.554.583-1.017.748-1.46.244-.427-.13-.046-1.017.427-1.648.748-1.017.457-.71.194-.474-.046-.26-.34.08-.44.54-.34 1.017-.457 1.648-.748.748-.32.046-.14-.178-.1-.8-.46-.93-.748-1.462-.94-1.017-.73-.554-.38.046-.474.34-.26.44.08.554.3 1.017.73 1.046.76.19.14.046-.1-.073-.61-.066-1.27v-.757l-.03-.91.066-.61.19-.44.34-.26.35.046.38.3.3.554.066.91-.03 1.27v.61l.05.19.13-.05.93-.748.993-1.017.748-.813.584-.763.38-.24.35.046.26.26.066.357-.3.554-.54.813-.748 1.017-1.017 1.17-.1.13.1.046h.19l1.27-.03.91.066.81-.03.44.19.26.34-.046.35-.38.34-.81.03-.91-.066-1.27.03h-.61z"/></svg>
         Ask Claude
       </button>
+      <button class="ai-btn gemini-btn" onclick="copyPrompt(this, 'gemini', &quot;What bounce houses and moonwalk rentals are available in Georgetown TX?&quot;)">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm0-2c5.514 0 10-4.486 10-10S17.514 2 12 2 2 6.486 2 12s4.486 10 10 10zm0-15.5c.276 0 .5.224.5.5v3.672l3.18 1.836a.5.5 0 0 1-.5.866L12 11.5l-3.18 1.874a.5.5 0 0 1-.5-.866L11.5 10.672V7a.5.5 0 0 1 .5-.5z"/></svg>
+        Ask Gemini
+      </button>
     </div>
   </div>
 </div>
@@ -557,6 +562,8 @@ function copyPrompt(btn, service, prompt) {
     btn.innerHTML = '&#10003; Prompt Copied!';
     var url = service === 'chatgpt'
       ? 'https://chat.openai.com/'
+      : service === 'gemini'
+      ? 'https://gemini.google.com/'
       : 'https://claude.ai/new';
     setTimeout(function() {
       window.open(url, '_blank');

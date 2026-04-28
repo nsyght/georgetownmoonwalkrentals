@@ -220,29 +220,29 @@ CSS_VARS = """
   }
 """
 
-NAV_LINKS_HTML = """    <li><a href="/index.html">Home</a></li>
-    <li><a href="/bounce-house-rentals.html">Bounce Houses</a></li>
-    <li><a href="/water-slide-rentals.html">Water Slides</a></li>
-    <li><a href="/combo-bounce-house-rentals.html">Combos</a></li>
-    <li><a href="/obstacle-course-rentals.html">Obstacle Courses</a></li>
-    <li><a href="/service-area.html">Service Area</a></li>
-    <li><a href="/faq.html">FAQ</a></li>
+NAV_LINKS_HTML = """    <li><a href="/index">Home</a></li>
+    <li><a href="/bounce-house-rentals">Bounce Houses</a></li>
+    <li><a href="/water-slide-rentals">Water Slides</a></li>
+    <li><a href="/combo-bounce-house-rentals">Combos</a></li>
+    <li><a href="/obstacle-course-rentals">Obstacle Courses</a></li>
+    <li><a href="/service-area">Service Area</a></li>
+    <li><a href="/faq">FAQ</a></li>
     <li><a href="tel:7372347169" class="nav-phone">(737) 234-7169</a></li>
     <li><a href="https://www.jump-aroundpartyrentals.com/category/" target="_blank" rel="noopener" class="nav-cta">Book Now</a></li>"""
 
-MOB_LINKS_HTML = """    <li><a href="/index.html">Home</a></li>
-    <li><a href="/bounce-house-rentals.html">Bounce Houses</a></li>
-    <li><a href="/water-slide-rentals.html">Water Slides</a></li>
-    <li><a href="/combo-bounce-house-rentals.html">Combos</a></li>
-    <li><a href="/obstacle-course-rentals.html">Obstacle Courses</a></li>
-    <li><a href="/service-area.html">Service Area</a></li>
-    <li><a href="/faq.html">FAQ</a></li>
-    <li><a href="/about.html">About</a></li>
-    <li><a href="/contact.html">Contact</a></li>"""
+MOB_LINKS_HTML = """    <li><a href="/index">Home</a></li>
+    <li><a href="/bounce-house-rentals">Bounce Houses</a></li>
+    <li><a href="/water-slide-rentals">Water Slides</a></li>
+    <li><a href="/combo-bounce-house-rentals">Combos</a></li>
+    <li><a href="/obstacle-course-rentals">Obstacle Courses</a></li>
+    <li><a href="/service-area">Service Area</a></li>
+    <li><a href="/faq">FAQ</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact</a></li>"""
 
 def nav_html(active=""):
     return f"""<nav>
-  <a href="/index.html" class="nav-logo" style="display:flex;align-items:center;text-decoration:none;"><img src="/images/logo.png" alt="Georgetown Moonwalk Rentals logo"></a>
+  <a href="/index" class="nav-logo" style="display:flex;align-items:center;text-decoration:none;"><img src="/images/logo.png" alt="Georgetown Moonwalk Rentals logo"></a>
   <ul class="nav-links">
 {NAV_LINKS_HTML}
   </ul>
@@ -349,27 +349,27 @@ FOOTER_HTML = f"""<footer>
     </div>
     <div class="footer-col">
       <h4>Our Rentals</h4>
-      <a href="/bounce-house-rentals.html">Bounce Houses</a>
-      <a href="/water-slide-rentals.html">Water Slides</a>
-      <a href="/combo-bounce-house-rentals.html">Combo Bounce Houses</a>
-      <a href="/obstacle-course-rentals.html">Obstacle Courses</a>
-      <a href="/contact.html">Get a Quote</a>
+      <a href="/bounce-house-rentals">Bounce Houses</a>
+      <a href="/water-slide-rentals">Water Slides</a>
+      <a href="/combo-bounce-house-rentals">Combo Bounce Houses</a>
+      <a href="/obstacle-course-rentals">Obstacle Courses</a>
+      <a href="/contact">Get a Quote</a>
     </div>
     <div class="footer-col">
       <h4>Neighborhoods</h4>
-      <a href="/neighborhood-wolf-ranch.html">Wolf Ranch</a>
-      <a href="/neighborhood-berry-creek.html">Berry Creek</a>
-      <a href="/neighborhood-teravista.html">Teravista</a>
-      <a href="/neighborhood-rancho-sienna.html">Rancho Sienna</a>
-      <a href="/neighborhood-cimarron-hills.html">Cimarron Hills</a>
-      <a href="/service-area.html">All Neighborhoods</a>
+      <a href="/neighborhood-wolf-ranch">Wolf Ranch</a>
+      <a href="/neighborhood-berry-creek">Berry Creek</a>
+      <a href="/neighborhood-teravista">Teravista</a>
+      <a href="/neighborhood-rancho-sienna">Rancho Sienna</a>
+      <a href="/neighborhood-cimarron-hills">Cimarron Hills</a>
+      <a href="/service-area">All Neighborhoods</a>
     </div>
     <div class="footer-col">
       <h4>Company</h4>
-      <a href="/about.html">About Us</a>
-      <a href="/service-area.html">Service Area</a>
-      <a href="/faq.html">FAQ</a>
-      <a href="/contact.html">Contact</a>
+      <a href="/about">About Us</a>
+      <a href="/service-area">Service Area</a>
+      <a href="/faq">FAQ</a>
+      <a href="/contact">Contact</a>
     </div>
   </div>
   <div class="footer-bottom">

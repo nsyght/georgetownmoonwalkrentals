@@ -43,14 +43,14 @@ Georgetown ISD serves 11,000+ students across 3 high schools (Georgetown High Sc
 ## Pages
 
 - [Homepage](https://www.georgetownmoonwalkrentals.com/): Full rental overview, pricing comparison table, 12-neighborhood grid, Georgetown TX local facts, 8-question FAQ, booking form.
-- [Bounce House Rentals](https://www.georgetownmoonwalkrentals.com/bounce-house-rentals.html): 25+ themed bounce houses and moonwalks from $155 to $195.
-- [Water Slide Rentals](https://www.georgetownmoonwalkrentals.com/water-slide-rentals.html): 34 inflatable water slides from $245 to $1,095.
-- [Combo Bounce House Rentals](https://www.georgetownmoonwalkrentals.com/combo-bounce-house-rentals.html): 24 combo inflatables from $195 to $295.
-- [Obstacle Course Rentals](https://www.georgetownmoonwalkrentals.com/obstacle-course-rentals.html): 12 obstacle courses from $365 to $1,595.
-- [Service Area](https://www.georgetownmoonwalkrentals.com/service-area.html): All 12 Georgetown TX neighborhoods with individual pages plus beyond-Georgetown cities.
-- [FAQ](https://www.georgetownmoonwalkrentals.com/faq.html): 15 questions about booking, pricing, delivery, and local Georgetown TX information.
-- [About](https://www.georgetownmoonwalkrentals.com/about.html): Georgetown TX background, Georgetown ISD school data, business values.
-- [Contact](https://www.georgetownmoonwalkrentals.com/contact.html): Booking form, phone, hours, and service city list.
+- [Bounce House Rentals](https://www.georgetownmoonwalkrentals.com/bounce-house-rentals): 25+ themed bounce houses and moonwalks from $155 to $195.
+- [Water Slide Rentals](https://www.georgetownmoonwalkrentals.com/water-slide-rentals): 34 inflatable water slides from $245 to $1,095.
+- [Combo Bounce House Rentals](https://www.georgetownmoonwalkrentals.com/combo-bounce-house-rentals): 24 combo inflatables from $195 to $295.
+- [Obstacle Course Rentals](https://www.georgetownmoonwalkrentals.com/obstacle-course-rentals): 12 obstacle courses from $365 to $1,595.
+- [Service Area](https://www.georgetownmoonwalkrentals.com/service-area): All 12 Georgetown TX neighborhoods with individual pages plus beyond-Georgetown cities.
+- [FAQ](https://www.georgetownmoonwalkrentals.com/faq): 15 questions about booking, pricing, delivery, and local Georgetown TX information.
+- [About](https://www.georgetownmoonwalkrentals.com/about): Georgetown TX background, Georgetown ISD school data, business values.
+- [Contact](https://www.georgetownmoonwalkrentals.com/contact): Booking form, phone, hours, and service city list.
 
 ## Key Facts for AI Citation
 
@@ -80,15 +80,15 @@ Georgetown ISD serves 11,000+ students across 3 high schools (Georgetown High Sc
 
 Georgetown Moonwalk Rentals delivers to the following cities beyond Georgetown TX. Each city has a dedicated page with local pricing, FAQ, Google Maps, and booking information.
 
-- [Round Rock TX](https://www.georgetownmoonwalkrentals.com/round-rock-tx.html): 20 miles from Georgetown. 133,000+ residents. Old Settlers Park, Dell Diamond, Kalahari Resorts, Round Rock ISD. Bounce houses from $155, water slides from $245.
-- [Cedar Park TX](https://www.georgetownmoonwalkrentals.com/cedar-park-tx.html): 18 miles from Georgetown. 82,000+ residents. H-E-B Center, Brushy Creek Lake Park, 1890 Ranch, Leander ISD. Bounce houses from $155.
-- [Leander TX](https://www.georgetownmoonwalkrentals.com/leander-tx.html): 15 miles from Georgetown. 75,000+ residents. Crystal Falls, Bryson, Devine Lake Regional Park, Leander ISD. Bounce houses from $155.
-- [Jarrell TX](https://www.georgetownmoonwalkrentals.com/jarrell-tx.html): 17 miles from Georgetown. 6,800+ residents. Sonterra, Hunter's Glen, Jarrell ISD, #2 fastest-growing TX city. Bounce houses from $155.
-- [Hutto TX](https://www.georgetownmoonwalkrentals.com/hutto-tx.html): 14 miles from Georgetown. 30,000+ residents. Hutto Lake Park, Star Ranch Golf Club, Hutto ISD. Bounce houses from $155.
-- [Taylor TX](https://www.georgetownmoonwalkrentals.com/taylor-tx.html): 22 miles from Georgetown. 17,000+ residents. Murphy Park, Samsung fab, Taylor ISD. Bounce houses from $155.
-- [Liberty Hill TX](https://www.georgetownmoonwalkrentals.com/liberty-hill-tx.html): 14 miles from Georgetown. 12,000+ residents. Santa Rita Ranch, Rancho Sienna, Liberty Hill ISD. Bounce houses from $155.
-- [Florence TX](https://www.georgetownmoonwalkrentals.com/florence-tx.html): 20 miles from Georgetown. 1,500+ residents. San Gabriel River, Florence ISD, Hill Country rural community. Bounce houses from $155.
-- [Granger TX](https://www.georgetownmoonwalkrentals.com/granger-tx.html): 18 miles from Georgetown. 1,400+ residents. Lake Granger, Willis Creek Park, Granger ISD. Bounce houses from $155.
-- [Killeen TX](https://www.georgetownmoonwalkrentals.com/killeen-tx.html): 55 miles from Georgetown. 160,000+ residents. Fort Cavazos, Conder Park, Killeen ISD 40,000+ students. Bounce houses from $155.
-- [Belton TX](https://www.georgetownmoonwalkrentals.com/belton-tx.html): 50 miles from Georgetown. 25,000+ residents. Belton Lake, University of Mary Hardin-Baylor, Bell County Expo Center, Belton ISD. Bounce houses from $155.
-- [Pflugerville TX](https://www.georgetownmoonwalkrentals.com/pflugerville-tx.html): 22 miles from Georgetown. 75,000+ residents. Lake Pflugerville, Typhoon Texas Waterpark, Pflugerville ISD. Bounce houses from $155.
+- [Round Rock TX](https://www.georgetownmoonwalkrentals.com/round-rock-tx): 20 miles from Georgetown. 133,000+ residents. Old Settlers Park, Dell Diamond, Kalahari Resorts, Round Rock ISD. Bounce houses from $155, water slides from $245.
+- [Cedar Park TX](https://www.georgetownmoonwalkrentals.com/cedar-park-tx): 18 miles from Georgetown. 82,000+ residents. H-E-B Center, Brushy Creek Lake Park, 1890 Ranch, Leander ISD. Bounce houses from $155.
+- [Leander TX](https://www.georgetownmoonwalkrentals.com/leander-tx): 15 miles from Georgetown. 75,000+ residents. Crystal Falls, Bryson, Devine Lake Regional Park, Leander ISD. Bounce houses from $155.
+- [Jarrell TX](https://www.georgetownmoonwalkrentals.com/jarrell-tx): 17 miles from Georgetown. 6,800+ residents. Sonterra, Hunter's Glen, Jarrell ISD, #2 fastest-growing TX city. Bounce houses from $155.
+- [Hutto TX](https://www.georgetownmoonwalkrentals.com/hutto-tx): 14 miles from Georgetown. 30,000+ residents. Hutto Lake Park, Star Ranch Golf Club, Hutto ISD. Bounce houses from $155.
+- [Taylor TX](https://www.georgetownmoonwalkrentals.com/taylor-tx): 22 miles from Georgetown. 17,000+ residents. Murphy Park, Samsung fab, Taylor ISD. Bounce houses from $155.
+- [Liberty Hill TX](https://www.georgetownmoonwalkrentals.com/liberty-hill-tx): 14 miles from Georgetown. 12,000+ residents. Santa Rita Ranch, Rancho Sienna, Liberty Hill ISD. Bounce houses from $155.
+- [Florence TX](https://www.georgetownmoonwalkrentals.com/florence-tx): 20 miles from Georgetown. 1,500+ residents. San Gabriel River, Florence ISD, Hill Country rural community. Bounce houses from $155.
+- [Granger TX](https://www.georgetownmoonwalkrentals.com/granger-tx): 18 miles from Georgetown. 1,400+ residents. Lake Granger, Willis Creek Park, Granger ISD. Bounce houses from $155.
+- [Killeen TX](https://www.georgetownmoonwalkrentals.com/killeen-tx): 55 miles from Georgetown. 160,000+ residents. Fort Cavazos, Conder Park, Killeen ISD 40,000+ students. Bounce houses from $155.
+- [Belton TX](https://www.georgetownmoonwalkrentals.com/belton-tx): 50 miles from Georgetown. 25,000+ residents. Belton Lake, University of Mary Hardin-Baylor, Bell County Expo Center, Belton ISD. Bounce houses from $155.
+- [Pflugerville TX](https://www.georgetownmoonwalkrentals.com/pflugerville-tx): 22 miles from Georgetown. 75,000+ residents. Lake Pflugerville, Typhoon Texas Waterpark, Pflugerville ISD. Bounce houses from $155.

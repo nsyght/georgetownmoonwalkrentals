@@ -521,6 +521,35 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
   document.querySelectorAll('.faq-question').forEach(btn=>{btn.addEventListener('click',()=>{const item=btn.parentElement;const isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));if(!isOpen)item.classList.add('open')})});
 </script>
 
+
+<!-- ALSO SERVING SECTION -->
+<style>
+.city-also-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin-top:20px}
+.city-card-full{background:var(--white);border-radius:var(--radius-card);padding:14px 18px;box-shadow:var(--shadow);text-decoration:none;display:block;transition:transform .2s;border-left:3px solid var(--gold)}
+.city-card-full:hover{transform:translateY(-3px)}
+.city-card-full strong{font-family:'Fredoka One',cursive;font-size:.95rem;color:var(--green);display:block}
+</style>
+<section style="background:var(--light-bg)">
+  <div class="container">
+    <span class="section-label">Extended Service Area</span>
+    <h2 class="section-title">Also Serving <span>Williamson County &amp; Beyond</span></h2>
+    <p class="section-sub">Georgetown Moonwalk Rentals delivers bounce houses, water slides, and inflatables throughout Williamson County, Bell County, and Travis County. Click any city for local pricing and delivery details.</p>
+    <div class="city-also-grid">
+<a href="/round-rock-tx.html" class="city-card-full"><strong>Round Rock TX</strong></a>
+<a href="/cedar-park-tx.html" class="city-card-full"><strong>Cedar Park TX</strong></a>
+<a href="/leander-tx.html" class="city-card-full"><strong>Leander TX</strong></a>
+<a href="/jarrell-tx.html" class="city-card-full"><strong>Jarrell TX</strong></a>
+<a href="/hutto-tx.html" class="city-card-full"><strong>Hutto TX</strong></a>
+<a href="/taylor-tx.html" class="city-card-full"><strong>Taylor TX</strong></a>
+<a href="/liberty-hill-tx.html" class="city-card-full"><strong>Liberty Hill TX</strong></a>
+<a href="/florence-tx.html" class="city-card-full"><strong>Florence TX</strong></a>
+<a href="/granger-tx.html" class="city-card-full"><strong>Granger TX</strong></a>
+<a href="/killeen-tx.html" class="city-card-full"><strong>Killeen TX</strong></a>
+<a href="/belton-tx.html" class="city-card-full"><strong>Belton TX</strong></a>
+<a href="/pflugerville-tx.html" class="city-card-full"><strong>Pflugerville TX</strong></a>
+    </div>
+  </div>
+</section>
 <!-- AI SHARE WIDGET -->
 <div class="ai-share-bar">
   <div class="ai-share-inner">

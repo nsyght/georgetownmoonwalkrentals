@@ -251,21 +251,31 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
   </div>
 </section>
 
+<style>
+.city-full-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:22px}
+.city-card-full{background:var(--white);border-radius:var(--radius-card);padding:18px 22px;box-shadow:var(--shadow);text-decoration:none;display:block;transition:transform .2s;border-left:3px solid var(--gold)}
+.city-card-full:hover{transform:translateY(-3px)}
+.city-card-full strong{font-family:'Fredoka One',cursive;font-size:1rem;color:var(--green);display:block;margin-bottom:4px}
+.city-card-full span{font-size:.8rem;color:var(--text-mid)}
+</style>
 <section style="background:var(--light-bg)">
   <div class="container">
     <span class="section-label">Beyond Georgetown</span>
-    <h2 class="section-title">Also Serving <span>Williamson County</span></h2>
-    <p class="section-sub">We deliver throughout Williamson County and surrounding areas. Click any city to get in touch about delivery to your address.</p>
-    <div class="city-grid">
-<a href="/contact.html" class="city-pill-link">Round Rock TX</a>
-<a href="/contact.html" class="city-pill-link">Cedar Park TX</a>
-<a href="/contact.html" class="city-pill-link">Leander TX</a>
-<a href="/contact.html" class="city-pill-link">Jarrell TX</a>
-<a href="/contact.html" class="city-pill-link">Hutto TX</a>
-<a href="/contact.html" class="city-pill-link">Taylor TX</a>
-<a href="/contact.html" class="city-pill-link">Liberty Hill TX</a>
-<a href="/contact.html" class="city-pill-link">Florence TX</a>
-<a href="/contact.html" class="city-pill-link">Granger TX</a>
+    <h2 class="section-title">Also Serving <span>Williamson County &amp; Beyond</span></h2>
+    <p class="section-sub">Georgetown Moonwalk Rentals delivers throughout Williamson County, Bell County, and Travis County. Click any city for local delivery details, pricing, and FAQ.</p>
+    <div class="city-full-grid">
+<a href="/round-rock-tx.html" class="city-card-full"><strong>Round Rock</strong><span>133,000+ residents, Dell HQ, Old Settlers Park</span></a>
+<a href="/cedar-park-tx.html" class="city-card-full"><strong>Cedar Park</strong><span>82,000+ residents, H-E-B Center, Brushy Creek Lake</span></a>
+<a href="/leander-tx.html" class="city-card-full"><strong>Leander</strong><span>75,000+ residents, Devine Lake Park, MetroRail</span></a>
+<a href="/jarrell-tx.html" class="city-card-full"><strong>Jarrell</strong><span>6,800+ residents, Sonterra, #2 fastest-growing TX city</span></a>
+<a href="/hutto-tx.html" class="city-card-full"><strong>Hutto</strong><span>30,000+ residents, Hippo Capital of Texas, Lake Park</span></a>
+<a href="/taylor-tx.html" class="city-card-full"><strong>Taylor</strong><span>17,000+ residents, Samsung fab, Murphy Park</span></a>
+<a href="/liberty-hill-tx.html" class="city-card-full"><strong>Liberty Hill</strong><span>12,000+ residents, Santa Rita Ranch, Rancho Sienna</span></a>
+<a href="/florence-tx.html" class="city-card-full"><strong>Florence</strong><span>1,500+ residents, San Gabriel River, Hill Country</span></a>
+<a href="/granger-tx.html" class="city-card-full"><strong>Granger</strong><span>1,400+ residents, Lake Granger, San Gabriel River</span></a>
+<a href="/killeen-tx.html" class="city-card-full"><strong>Killeen</strong><span>160,000+ residents, Fort Cavazos, Conder Park</span></a>
+<a href="/belton-tx.html" class="city-card-full"><strong>Belton</strong><span>25,000+ residents, Belton Lake, UMHB campus</span></a>
+<a href="/pflugerville-tx.html" class="city-card-full"><strong>Pflugerville</strong><span>75,000+ residents, Lake Pflugerville, Typhoon Texas</span></a>
     </div>
     <div class="page-nav-block" style="margin-top:36px">
       <p>Explore our rentals</p>

@@ -1,6 +1,7 @@
 [build]
   publish = "."
 
+# Force no trailing slash -- canonical URLs match exactly
 [[redirects]]
   from = "/index"
   to = "/"

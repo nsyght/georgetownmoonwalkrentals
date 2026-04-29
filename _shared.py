@@ -227,6 +227,7 @@ NAV_LINKS_HTML = """    <li><a href="/index">Home</a></li>
     <li><a href="/obstacle-course-rentals">Obstacle Courses</a></li>
     <li><a href="/service-area">Service Area</a></li>
     <li><a href="/faq">FAQ</a></li>
+    <li><a href="/blog">Blog</a></li>
     <li><a href="tel:7372347169" class="nav-phone">(737) 234-7169</a></li>
     <li><a href="https://www.jump-aroundpartyrentals.com/category/" target="_blank" rel="noopener" class="nav-cta">Book Now</a></li>"""
 
@@ -237,7 +238,9 @@ MOB_LINKS_HTML = """    <li><a href="/index">Home</a></li>
     <li><a href="/obstacle-course-rentals">Obstacle Courses</a></li>
     <li><a href="/service-area">Service Area</a></li>
     <li><a href="/faq">FAQ</a></li>
+    <li><a href="/blog">Blog</a></li>
     <li><a href="/about">About</a></li>
+    <li><a href="/blog">Blog</a></li>
     <li><a href="/contact">Contact</a></li>"""
 
 def nav_html(active=""):

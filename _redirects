@@ -83,6 +83,3 @@
 /water-slide-rentals-wolf-ranch.html  /water-slide-rentals-wolf-ranch  301
 /water-slide-rentals.html  /water-slide-rentals  301
 /wolf-ranch.html  /wolf-ranch  301
-
-# Remove trailing slashes -- force canonical URLs without trailing slash
-/:splat/  /:splat  301!

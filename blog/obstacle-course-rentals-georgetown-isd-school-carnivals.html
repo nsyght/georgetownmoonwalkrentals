@@ -211,13 +211,19 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
 <nav>
   <a href="/index" class="nav-logo" style="display:flex;align-items:center;text-decoration:none;"><img src="/images/logo.png" alt="Georgetown Moonwalk Rentals logo"></a>
   <ul class="nav-links">
-    <li><a href="/index">Home</a></li>
-    <li><a href="/bounce-house-rentals">Bounce Houses</a></li>
-    <li><a href="/water-slide-rentals">Water Slides</a></li>
-    <li><a href="/combo-bounce-house-rentals">Combos</a></li>
-    <li><a href="/obstacle-course-rentals">Obstacle Courses</a></li>
+    <li><a href="/">Home</a></li>
+    <li class="nav-dropdown">
+      <a href="/bounce-house-rentals" class="drop-toggle">Rentals</a>
+      <div class="nav-dropdown-menu">
+        <a href="/bounce-house-rentals">&#127984; Bounce Houses</a>
+        <a href="/water-slide-rentals">&#127754; Water Slides</a>
+        <a href="/combo-bounce-house-rentals">&#127914; Combo Bounce Houses</a>
+        <a href="/obstacle-course-rentals">&#127937; Obstacle Courses</a>
+      </div>
+    </li>
     <li><a href="/service-area">Service Area</a></li>
     <li><a href="/faq">FAQ</a></li>
+    <li><a href="/blog">Tips &amp; Guides</a></li>
     <li><a href="tel:7372347169" class="nav-phone">(737) 234-7169</a></li>
     <li><a href="https://www.jump-aroundpartyrentals.com/category/" target="_blank" rel="noopener" class="nav-cta">Book Now</a></li>
   </ul>
@@ -225,13 +231,14 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
 </nav>
 <div class="mobile-menu" id="mobileMenu">
   <ul>
-    <li><a href="/index">Home</a></li>
+    <li><a href="/">Home</a></li>
     <li><a href="/bounce-house-rentals">Bounce Houses</a></li>
     <li><a href="/water-slide-rentals">Water Slides</a></li>
-    <li><a href="/combo-bounce-house-rentals">Combos</a></li>
+    <li><a href="/combo-bounce-house-rentals">Combo Bounce Houses</a></li>
     <li><a href="/obstacle-course-rentals">Obstacle Courses</a></li>
     <li><a href="/service-area">Service Area</a></li>
     <li><a href="/faq">FAQ</a></li>
+    <li><a href="/blog">Tips &amp; Guides</a></li>
     <li><a href="/about">About</a></li>
     <li><a href="/contact">Contact</a></li>
   </ul>
@@ -258,9 +265,9 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
 <p>Georgetown ISD serves over 11,000 students across Georgetown High School, East View High School, and more than 15 elementary and middle school campuses. Field day season runs primarily through May and June, with end-of-year school carnival events scattered throughout May. This is one of the most competitive booking periods of the year across all Georgetown TX and Williamson County campuses.</p>
 <h2 id="which-obstacle-course-is-right-for-your-georgetown-isd-event">Which Obstacle Course Is Right for Your Georgetown ISD Event?</h2>
 <p>The right obstacle course for your event depends on the number of students, the available space, and your budget. For smaller school events -- individual classroom field days or grade-level celebrations -- the 34ft Caution Obstacle Course ($365) or 40ft Racing Course ($395) are well-suited options that fit in most school outdoor spaces.</p>
-<p>For school-wide carnivals at Georgetown High School, East View High School, Wolf Ranch Elementary, and larger Georgetown ISD campuses, the 96ft Dual Lane Course ($695) is the most popular choice. It accommodates two racers simultaneously, keeps lines short, and maintains high energy throughout a multi-hour event. For the largest Georgetown ISD events, the 160ft Radical Run 5-piece mega course ($1,595) is available and creates an event-defining experience.</p>
+<p>For school-wide carnivals at Georgetown High School, East View High School, <a href="/wolf-ranch" style="color:var(--cta);text-decoration:underline;text-decoration-color:rgba(196,94,56,.35);font-weight:600;">Wolf Ranch</a> Elementary, and larger Georgetown ISD campuses, the 96ft Dual Lane Course ($695) is the most popular choice. It accommodates two racers simultaneously, keeps lines short, and maintains high energy throughout a multi-hour event. For the largest Georgetown ISD events, the <a href="/obstacle-course-rentals" style="color:var(--cta);text-decoration:underline;text-decoration-color:rgba(196,94,56,.35);font-weight:600;">160ft Radical Run</a> 5-piece mega course ($1,595) is available and creates an event-defining experience.</p>
 <h2 id="what-georgetown-isd-schools-need-for-vendor-documentation">What Georgetown ISD Schools Need for Vendor Documentation</h2>
-<p>Most Georgetown ISD campuses require vendor insurance documentation before allowing inflatable rentals on school property. Georgetown Moonwalk Rentals provides a certificate of insurance from Jump Around Party Rentals upon request -- typically delivered within 24 hours of request.</p>
+<p>Most Georgetown ISD campuses require vendor insurance documentation before allowing inflatable rentals on school property. <a href="/" style="color:var(--cta);text-decoration:underline;text-decoration-color:rgba(196,94,56,.35);font-weight:600;">Georgetown Moonwalk Rentals</a> provides a certificate of insurance from Jump Around Party Rentals upon request -- typically delivered within 24 hours of request.</p>
 <p>When booking a school carnival or field day in Georgetown ISD, have the following information ready: the school name and address, the event date and setup time, the name of the event coordinator or PTA contact, and any specific space or access requirements at your campus. Our crew is familiar with Georgetown ISD campus layouts and has delivered to virtually every school in the district.</p>
 <h2 id="booking-timeline-for-georgetown-isd-school-events">Booking Timeline for Georgetown ISD School Events</h2>
 <p>School carnival and field day season in Georgetown ISD runs from late April through early June. This is the single most competitive booking period of the entire year -- more competitive even than summer birthday season.</p>
@@ -348,6 +355,10 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
   <div class="footer-bottom">
     <p>All rentals are provided by Jump Around Party Rentals, who is fully licensed and insured in Williamson County and Travis County, Texas.</p>
     <p style="margin-top:8px;">&copy; 2025 Georgetown Moonwalk Rentals. All rights reserved.</p>
+    <p style="margin-top:8px;">
+      <a href="/privacy-policy" style="color:rgba(255,255,255,.4);text-decoration:none;font-size:.75rem;margin-right:16px">Privacy Policy</a>
+      <a href="/terms-of-service" style="color:rgba(255,255,255,.4);text-decoration:none;font-size:.75rem">Terms of Service</a>
+    </p>
   </div>
 </footer>
 <script>

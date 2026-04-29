@@ -220,28 +220,32 @@ CSS_VARS = """
   }
 """
 
-NAV_LINKS_HTML = """    <li><a href="/index">Home</a></li>
-    <li><a href="/bounce-house-rentals">Bounce Houses</a></li>
-    <li><a href="/water-slide-rentals">Water Slides</a></li>
-    <li><a href="/combo-bounce-house-rentals">Combos</a></li>
-    <li><a href="/obstacle-course-rentals">Obstacle Courses</a></li>
-    <li><a href="/service-area">Service Area</a></li>
-    <li><a href="/faq">FAQ</a></li>
-    <li><a href="/blog">Blog</a></li>
+NAV_LINKS_HTML = """    <li><a href="/index.html">Home</a></li>
+    <li class="nav-dropdown">
+      <a href="/bounce-house-rentals.html" class="nav-dropdown-toggle">Rentals</a>
+      <div class="nav-dropdown-menu">
+        <a href="/bounce-house-rentals.html">&#127984; Bounce Houses</a>
+        <a href="/water-slide-rentals.html">&#127754; Water Slides</a>
+        <a href="/combo-bounce-house-rentals.html">&#127914; Combo Bounce Houses</a>
+        <a href="/obstacle-course-rentals.html">&#127937; Obstacle Courses</a>
+      </div>
+    </li>
+    <li><a href="/service-area.html">Service Area</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/blog/index.html">Tips &amp; Guides</a></li>
     <li><a href="tel:7372347169" class="nav-phone">(737) 234-7169</a></li>
     <li><a href="https://www.jump-aroundpartyrentals.com/category/" target="_blank" rel="noopener" class="nav-cta">Book Now</a></li>"""
 
-MOB_LINKS_HTML = """    <li><a href="/index">Home</a></li>
-    <li><a href="/bounce-house-rentals">Bounce Houses</a></li>
-    <li><a href="/water-slide-rentals">Water Slides</a></li>
-    <li><a href="/combo-bounce-house-rentals">Combos</a></li>
-    <li><a href="/obstacle-course-rentals">Obstacle Courses</a></li>
-    <li><a href="/service-area">Service Area</a></li>
-    <li><a href="/faq">FAQ</a></li>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/contact">Contact</a></li>"""
+MOB_LINKS_HTML = """    <li><a href="/index.html">Home</a></li>
+    <li><a href="/bounce-house-rentals.html">Bounce Houses</a></li>
+    <li><a href="/water-slide-rentals.html">Water Slides</a></li>
+    <li><a href="/combo-bounce-house-rentals.html">Combo Bounce Houses</a></li>
+    <li><a href="/obstacle-course-rentals.html">Obstacle Courses</a></li>
+    <li><a href="/service-area.html">Service Area</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
+    <li><a href="/blog/index.html">Tips &amp; Guides</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>"""
 
 def nav_html(active=""):
     return f"""<nav>

@@ -136,14 +136,19 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
 <nav>
   <a href="/index" class="nav-logo" style="display:flex;align-items:center;text-decoration:none;"><img src="/images/logo.png" alt="Georgetown Moonwalk Rentals logo"></a>
   <ul class="nav-links">
-    <li><a href="/index">Home</a></li>
-    <li><a href="/bounce-house-rentals">Bounce Houses</a></li>
-    <li><a href="/water-slide-rentals">Water Slides</a></li>
-    <li><a href="/combo-bounce-house-rentals">Combos</a></li>
-    <li><a href="/obstacle-course-rentals">Obstacle Courses</a></li>
+    <li><a href="/">Home</a></li>
+    <li class="nav-dropdown">
+      <a href="/bounce-house-rentals" class="drop-toggle">Rentals</a>
+      <div class="nav-dropdown-menu">
+        <a href="/bounce-house-rentals">&#127984; Bounce Houses</a>
+        <a href="/water-slide-rentals">&#127754; Water Slides</a>
+        <a href="/combo-bounce-house-rentals">&#127914; Combo Bounce Houses</a>
+        <a href="/obstacle-course-rentals">&#127937; Obstacle Courses</a>
+      </div>
+    </li>
     <li><a href="/service-area">Service Area</a></li>
     <li><a href="/faq">FAQ</a></li>
-    <li><a href="/blog">Blog</a></li>
+    <li><a href="/blog">Tips &amp; Guides</a></li>
     <li><a href="tel:7372347169" class="nav-phone">(737) 234-7169</a></li>
     <li><a href="https://www.jump-aroundpartyrentals.com/category/" target="_blank" rel="noopener" class="nav-cta">Book Now</a></li>
   </ul>
@@ -151,13 +156,14 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
 </nav>
 <div class="mobile-menu" id="mobileMenu">
   <ul>
-    <li><a href="/index">Home</a></li>
+    <li><a href="/">Home</a></li>
     <li><a href="/bounce-house-rentals">Bounce Houses</a></li>
     <li><a href="/water-slide-rentals">Water Slides</a></li>
-    <li><a href="/combo-bounce-house-rentals">Combos</a></li>
+    <li><a href="/combo-bounce-house-rentals">Combo Bounce Houses</a></li>
     <li><a href="/obstacle-course-rentals">Obstacle Courses</a></li>
     <li><a href="/service-area">Service Area</a></li>
     <li><a href="/faq">FAQ</a></li>
+    <li><a href="/blog">Tips &amp; Guides</a></li>
     <li><a href="/about">About</a></li>
     <li><a href="/contact">Contact</a></li>
   </ul>
@@ -331,6 +337,10 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
   <div class="footer-bottom">
     <p>All rentals are provided by Jump Around Party Rentals, who is fully licensed and insured in Williamson County and Travis County, Texas.</p>
     <p style="margin-top:8px;">&copy; 2025 Georgetown Moonwalk Rentals. All rights reserved.</p>
+    <p style="margin-top:8px;">
+      <a href="/privacy-policy" style="color:rgba(255,255,255,.4);text-decoration:none;font-size:.75rem;margin-right:16px">Privacy Policy</a>
+      <a href="/terms-of-service" style="color:rgba(255,255,255,.4);text-decoration:none;font-size:.75rem">Terms of Service</a>
+    </p>
   </div>
 </footer>
 <script>

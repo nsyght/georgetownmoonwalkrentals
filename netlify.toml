@@ -1,7 +1,10 @@
 [build]
   publish = "."
 
-# Force no trailing slash -- canonical URLs match exactly
+# Disable Pretty URLs automatic trailing slash behavior
+[build.processing]
+  skip_processing = false
+
 [[redirects]]
   from = "/index"
   to = "/"
@@ -18,6 +21,7 @@
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Canonical-Tag = "enabled"
 
 [[headers]]
   for = "/sitemap.xml"

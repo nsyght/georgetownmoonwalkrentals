@@ -127,7 +127,7 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
 .nav-dropdown-menu{
   display:none;
   position:absolute;
-  top:calc(100% + 12px);
+  top:100%;
   left:-12px;
   background:#162e22;
   border-top:3px solid var(--gold);
@@ -136,7 +136,18 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
   padding:8px 0;
   box-shadow:0 8px 32px rgba(0,0,0,.4);
   z-index:9999;
-  list-style:none
+  list-style:none;
+  padding-top:12px;
+  margin-top:0
+}
+.nav-dropdown::after{
+  content:'';
+  position:absolute;
+  top:100%;
+  left:0;
+  right:0;
+  height:12px;
+  background:transparent
 }
 .nav-dropdown:hover .nav-dropdown-menu{display:block}
 .nav-dropdown-menu a{
@@ -357,7 +368,7 @@ footer{background:var(--footer-bg);color:rgba(255,255,255,.7);padding:48px 24px 
   </div>
   <div class="footer-bottom">
     <p>All rentals are provided by Jump Around Party Rentals, who is fully licensed and insured in Williamson County and Travis County, Texas.</p>
-    <p style="margin-top:8px;">&copy; 2025 Georgetown Moonwalk Rentals. All rights reserved.</p>
+    <p style="margin-top:8px;">&copy; 2026 Georgetown Moonwalk Rentals. All rights reserved.</p>
     <p style="margin-top:8px;">
       <a href="/privacy-policy" style="color:rgba(255,255,255,.4);text-decoration:none;font-size:.75rem;margin-right:16px">Privacy Policy</a>
       <a href="/terms-of-service" style="color:rgba(255,255,255,.4);text-decoration:none;font-size:.75rem">Terms of Service</a>
